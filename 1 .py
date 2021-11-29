@@ -19,8 +19,7 @@ def s_uchastka(l, w):
 @decorat
 def svobodnoe_padenie(high):
     vf = sqrt(0 ** 2) + 2 * 9.8 * high
-    print(f'скорость при приземлении равна {vf} м/c2')
-
+print(f'скорость при приземлении равна {vf} м/c')
 
 
 l, w = int(input('введите длину: ')), int(input('введите ширину: '))
