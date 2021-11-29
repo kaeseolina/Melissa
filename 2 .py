@@ -1,12 +1,8 @@
-import math
+from math import sqrt
 
-a = 0
-float(a)
-a = 9.8
+def svobodnoe_padenie(high):
+    vf = sqrt(0 ** 2) + 2 * 9.8 * high
+    print(f'скорость при приземлении равна {vf} м/c2')
 
-Vi = 0
-float (Vi)
-
-d = float(input('Введите высоту в метрах: '))
-Vf = math.sqrt(Vi**2 + 2 * a *d)
-print('Финальная скорость:',round(Vf,1),'м/с')
+h = int(input('сколько метров высота падения? '))
+svobodnoe_padenie(h)
