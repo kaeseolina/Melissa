@@ -23,7 +23,7 @@ def s_uchastka(l, w):
 @vremya
 @decorat
 def svobodnoe_padenie(high):
-    vf = sqrt(0 ** 2) + 2 * 9.8 * high
+    vf = sqrt(0 ** 2 + 2 * 9.8 * high)
     print(f'скорость при приземлении равна {vf} м/c')
 
 
